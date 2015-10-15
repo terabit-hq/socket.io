@@ -15,15 +15,15 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Automattic/socket.io"
+    "url": "https://github.com/bitpay/socket.io"
   },
   "scripts": {
     "test": "mocha --reporter dot --slow 200ms --bail"
   },
   "dependencies": {
-    "engine.io": "automattic/engine.io#master",
+    "engine.io": "bitpay/engine.io#master",
     "socket.io-parser": "2.2.4",
-    "socket.io-client": "automattic/socket.io-client#master",
+    "socket.io-client": "bitpay/socket.io-client#master",
     "socket.io-adapter": "automattic/socket.io-adapter#master",
     "has-binary": "0.1.6",
     "debug": "2.1.3"
